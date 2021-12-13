@@ -7,7 +7,7 @@ header {
   position: fixed;
 }
 
-h1 {
-  padding: 10%;
+main {
+  padding: 100px;
   height: 500px;
 }
