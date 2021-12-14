@@ -20,7 +20,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: #999 url(bg_img.jpg)top center / cover no-repeat;
+  background-image: #999 top center / cover no-repeat;
 }
 
 h2{
