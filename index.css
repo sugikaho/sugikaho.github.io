@@ -1,11 +1,11 @@
 body{
-  padding-top: 90px;
+  margin: 0;
 }
 
 .header{
   width: 100%;
-  height: 50px;
-  background-color: #ccc;
+  height: 70px;
+  background-color: rgba(252, 97, 8, 0.808);
   padding: 20px 50px;
   box-sizing: border-box;
   position: fixed;
@@ -15,19 +15,25 @@ body{
   align-items: center;
 }
 
+.header_title{
+  color: #fff;
+}
+
 .header_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(bg_img.jpg);
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 h2{
   margin: 0;
   font-size: 30px;
   font-weight: normal;
-  color: tomato;
+  color: #fff;
 }
 
 main{
