@@ -16,11 +16,11 @@ body{
 }
 
 .header_img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url(bg_img.jpg);
   height: 100vh;
-  background-image: url(bg_img.jpg)top center / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 h2{
